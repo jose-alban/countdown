@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "San Francisco";
+  src:url("../font/SF-UI-Display-Light.woff");
+  font-weight: lighter; 
+}
+@font-face {
+  font-family: "San Francisco";
+  src: url("../font/SF-UI-Display-Semibold.woff");
+  font-weight: 700; 
+}
+@font-face {
+  font-family: "San Francisco";
+  src: url("../font/SF-UI-Display-Ultralight.woff"); 
+  font-weight: 100;
+}
+@font-face {
+  font-family: "San Francisco";
+  src: url("../font/SF-UI-Text-Medium.woff"); 
+  font-weight: 200;
+}
+@font-face {
+  font-family: "San Francisco";
+  src: url("../font/SF-UI-Text-Regular.woff");
+  font-weight: bold;
+}
+*{
+	font-family: "San Francisco";
+	color: #fff;
+}
+body {
+	font-family:Verdana, sans-serif;
+	background:url(../img/principal.jpg) no-repeat; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow-y: hidden;
+}
+#bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo_sup{
+	width: 10%;
+	padding-top: 5%;
+}
+.principal{
+	padding-top: 2.5%;
+}
+p{
+	margin:0;
+}
+.a{
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 2%;
+}
+.b{
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 1%;
+}
+.c{
+	font-weight: lighter;
+	font-size: 24px;
+	margin-bottom: 1%;
+}
+#clockdiv{
+	display: inline-block;
+	text-align: center;
+	font-size: 64px;
+	font-weight: 700;
+}
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 9px;
+	display: inline-block;
+	width: 162px;
+}
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 9px;
+	background: #D9A800;
+	display: inline-block;
+	width: 100%;
+}
+.smalltext{
+	padding-top: 5px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.cuadro{
+	background-color: #000;
+	padding: 2%;
+	border-radius: 5px;
+	margin-top: 3%;
+}
+input{
+	width: 98%;
+	border-radius: 5px;
+	border: none;
+	color: #D9A800;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 1.3%;
+}
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color:#b5b5b5;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-left: 2%;
+}
+.btn{
+	padding: 7%;
+    width: 100%;
+    background-color: #D9A800;
+    font-weight: 200;
+    font-size: 16px;
+}
+.btn:hover{
+	background-color: transparent;
+	border:solid 4px #D9A800;
+	color: #D9A800;
+}
+#agree{
+	margin-bottom: 3%;
+}
+@media (min-width: 300px) and (max-width: 880px){
+	body{
+		background-position: center;
+    	background-size: cover;
+    	height: 1318px;
+	}
+	input{
+		width: 100%;
+		margin: 1%;
+	}
+	.btn{
+		margin-top: 4%;
+		padding: 3%;
+	}
+	#clockdiv {
+		position: relative;
+		left: -10px;
+		font-size: 60px;
+	}
+	#clockdiv > div{
+		padding: 14px;
+		width: 157px;
+	}
+	.logo_sup{
+<<<<<<< HEAD
+		width:20%;
+=======
+		width: 25%;
+<<<<<<< HEAD
+>>>>>>> master
+=======
+		padding-top: 9%;
+	}
+	.principal{
+		padding: 5%;
+>>>>>>> master
+	}
+}
+@media (min-width: 1920px) and (max-width: 2000px){
+	.principal{
+		padding-top: 5%;
+	}
+<<<<<<< HEAD
+	#bg{
+		height: 1412px !important;
+	}
+<<<<<<< HEAD
+	#bg{
+		height: 1412px !important;
+=======
+	body{
+		overflow-y: hidden ;
+>>>>>>> master
+=======
+	body{
+		overflow-y: hidden;
+>>>>>>> master
+	}
+}
