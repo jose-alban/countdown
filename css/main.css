@@ -34,7 +34,6 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	overflow-y: hidden;
 }
 #bg {
   position: fixed;
@@ -133,7 +132,6 @@ input{
 	body{
 		background-position: center;
     	background-size: cover;
-    	height: 1318px;
 	}
 	input{
 		width: 100%;
