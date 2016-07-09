@@ -153,38 +153,22 @@ input{
 		width: 157px;
 	}
 	.logo_sup{
-<<<<<<< HEAD
 		width:20%;
-=======
 		width: 25%;
-<<<<<<< HEAD
->>>>>>> master
-=======
 		padding-top: 9%;
 	}
 	.principal{
 		padding: 5%;
->>>>>>> master
 	}
 }
 @media (min-width: 1920px) and (max-width: 2000px){
 	.principal{
 		padding-top: 5%;
 	}
-<<<<<<< HEAD
 	#bg{
 		height: 1412px !important;
 	}
-<<<<<<< HEAD
-	#bg{
-		height: 1412px !important;
-=======
-	body{
-		overflow-y: hidden ;
->>>>>>> master
-=======
 	body{
 		overflow-y: hidden;
->>>>>>> master
 	}
 }
